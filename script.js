@@ -54,18 +54,4 @@
                 } else {
                     category = 'Extreme Obesity';
                     categoryColor = '#c0392b';
-                }
-
-                result.innerHTML = `
-                    <div style="text-align: center;">
-                        <div style="font-size: 24px; font-weight: 700; color: ${categoryColor}; margin-bottom: 8px;">
-                            BMI: ${bmi}
-                        </div>
-                        <div style="font-size: 18px; color: #333;">
-                            Category: <span style="color: ${categoryColor}; font-weight: 600;">${category}</span>
-                        </div>
-                    </div>
-                `;
-                result.classList.add('has-result');
-            }
-        })();
+        
